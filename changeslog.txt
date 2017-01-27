@@ -1,0 +1,52 @@
+=== Instant Domain Checker ===
+
+Requires at least: 4.0
+Tested up to: 4.7
+Stable tag: 1.7
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+== Description ==
+
+Just start typing, domain will be checked immediately when you type. Supported WooCommerce integration, WHMCS integration, custom link integration. Supported unlimited TLD domains extensions, ccTLD by country detection. Plugin also supported ajax domain checking, Google reCAPTCHA to protect you from abuse and spam. Compatible with WPML and much more...
+
+== Changelog ==
+
+= 1.7 - January 17 2017 =
+    * Fixed: .be tld
+    * Fixed: Gravity form compatible
+    * Fixed: Enter domain start with "www."
+    * Fixed: Integration link target issue
+    * Added: Remove form tag option for instant search
+    * Added: _blank link for the transfer domain option
+    * Added: No div option for IDC shortcode
+
+= 1.6 - September 29 2016 =
+    * Fixed: SSL Protocol
+    * Fixed: Redux Admin style override some themes
+
+= 1.5 - September 27 2016 =
+    * Fixed: Instant search not show results
+    * Improved: Transfer button work with WHMCS
+
+= 1.4 - September 09 2016 =
+    * Added: Supported second level domain search
+    * Added: Supported second level domain external whois
+    * Added: SLDs checking results position configurable
+    * Added: Transfer button
+    * Fixed: Special characters in domain name when using ajax search
+
+= 1.2 - August 19 2016 =
+    * Changed: Options Framework to Redux Options Framework
+    * Fixed: One char domain name search
+    * Fixed: First char upper case bug
+    * Improved: Checking speed and "Try Faster Checking" option
+    * Improved: CSS and responsive
+    * Added: Whois button text editable
+    * Added: Custom CSS option
+
+= 1.0.1 - July 31 2016 =
+    * Fixed: WHMCS integration on instant search
+
+= 1.0 - July 26 2016 =
+    * Initial release

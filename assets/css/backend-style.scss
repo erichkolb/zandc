@@ -1,0 +1,47 @@
+/* Backend style for Zan Domain Checker */
+
+.toplevel_page_zan-domain-checker {
+  #optionsframework {
+    h3 {
+      background-color: #fff;
+    }
+    #optionsframework-submit {
+      padding: 15px 20px;
+      background-color: #fff;
+    }
+    .section {
+      padding: 10px 20px 0;
+      .controls {
+        float: none;
+        width: 60%;
+        input[type=text], select, textarea {
+          line-height: 24px;
+          height: auto;
+          padding: 4px 15px;
+          margin-bottom: 5px;
+          box-shadow: none;
+        }
+        textarea {
+          height: 100px;
+        }
+      }
+      .explain {
+        max-width: 60%;
+      }
+    }
+    .heading {
+      font-size: 16px;
+      margin-bottom: 7px;
+    }
+    .zan-dep {
+      padding: 0 0 10px 0;
+      .heading {
+        font-size: 14px;
+        margin-top: 5px;
+      }
+    }
+    .zan-dep-lv-1 {
+
+    }
+  }
+}

@@ -1,0 +1,31 @@
+/* Backend style for Zan Domain Checker */
+.toplevel_page_zan-domain-checker #optionsframework h3 {
+  background-color: #fff; }
+.toplevel_page_zan-domain-checker #optionsframework #optionsframework-submit {
+  padding: 15px 20px;
+  background-color: #fff; }
+.toplevel_page_zan-domain-checker #optionsframework .section {
+  padding: 10px 20px 0; }
+  .toplevel_page_zan-domain-checker #optionsframework .section .controls {
+    float: none;
+    width: 60%; }
+    .toplevel_page_zan-domain-checker #optionsframework .section .controls input[type=text], .toplevel_page_zan-domain-checker #optionsframework .section .controls select, .toplevel_page_zan-domain-checker #optionsframework .section .controls textarea {
+      line-height: 24px;
+      height: auto;
+      padding: 4px 15px;
+      margin-bottom: 5px;
+      box-shadow: none; }
+    .toplevel_page_zan-domain-checker #optionsframework .section .controls textarea {
+      height: 100px; }
+  .toplevel_page_zan-domain-checker #optionsframework .section .explain {
+    max-width: 60%; }
+.toplevel_page_zan-domain-checker #optionsframework .heading {
+  font-size: 16px;
+  margin-bottom: 7px; }
+.toplevel_page_zan-domain-checker #optionsframework .zan-dep {
+  padding: 0 0 10px 0; }
+  .toplevel_page_zan-domain-checker #optionsframework .zan-dep .heading {
+    font-size: 14px;
+    margin-top: 5px; }
+
+/*# sourceMappingURL=backend-style.css.map */

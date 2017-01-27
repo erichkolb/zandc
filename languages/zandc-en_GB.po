@@ -1,0 +1,934 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Zan Domain Checker\n"
+"POT-Creation-Date: 2016-07-08 13:14+0700\n"
+"PO-Revision-Date: 2016-07-08 13:14+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: zan-domain-checker.php\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. Plugin Name of the plugin/theme
+#: core/functions.php:67 core/functions.php:68
+#: core/shortcodes/domainchecker.php:60 core/shortcodes/domainchecker.php:63
+msgid "Zan Domain Checker"
+msgstr ""
+
+#: core/functions.php:93 core/functions.php:362
+msgid "Security check error!"
+msgstr "Security check error!"
+
+#: core/functions.php:124
+msgid "Please verify the captcha!"
+msgstr "Please verify the captcha!"
+
+#: core/functions.php:139
+msgid "Invalid domain!"
+msgstr "Invalid domain!"
+
+#: core/functions.php:187 core/shortcodes/domainchecker.php:388
+msgid "Congratulations! {domain} is available."
+msgstr "Congratulations! {domain} is available."
+
+#: core/functions.php:188 core/shortcodes/domainchecker.php:389
+msgid "Sorry! {domain} is already taken."
+msgstr "Sorry! {domain} is already taken."
+
+#: core/functions.php:189 core/options.php:218
+#: core/shortcodes/domainchecker.php:390
+msgid "Sorry, currently there is WHOIS server for this TLD extension: {ext}"
+msgstr "Sorry, currently there is WHOIS server for this TLD extension: {ext}"
+
+#: core/functions.php:196 core/functions.php:231 core/functions.php:252
+#: core/options.php:269 core/shortcodes/domainchecker.php:395
+msgid "Order"
+msgstr "Order"
+
+#: core/functions.php:224 core/options.php:252
+#: core/shortcodes/domainchecker.php:393
+msgid "Add To Cart"
+msgstr "Add To Cart"
+
+#: core/functions.php:276 core/functions.php:282
+msgid "Whois"
+msgstr "Whois"
+
+#: core/functions.php:381 core/options.php:192 core/shortcodes/whois.php:9
+msgid "Whois record for {domain}"
+msgstr "Whois record for {domain}"
+
+#: core/functions.php:418 core/functions.php:435
+msgid "Domain: "
+msgstr "Domain: "
+
+#: core/options.php:32 options-framework/options-check/options.php:32
+msgid "One"
+msgstr "One"
+
+#: core/options.php:33 options-framework/options-check/options.php:33
+msgid "Two"
+msgstr "Two"
+
+#: core/options.php:34 options-framework/options-check/options.php:34
+msgid "Three"
+msgstr "Three"
+
+#: core/options.php:35 options-framework/options-check/options.php:35
+msgid "Four"
+msgstr "Four"
+
+#: core/options.php:36 options-framework/options-check/options.php:36
+msgid "Five"
+msgstr "Five"
+
+#: core/options.php:41 options-framework/options-check/options.php:41
+msgid "French Toast"
+msgstr "French Toast"
+
+#: core/options.php:42 options-framework/options-check/options.php:42
+msgid "Pancake"
+msgstr "Pancake"
+
+#: core/options.php:43 options-framework/options-check/options.php:43
+msgid "Omelette"
+msgstr "Omelette"
+
+#: core/options.php:44 options-framework/options-check/options.php:44
+msgid "Crepe"
+msgstr "Crepe"
+
+#: core/options.php:45 options-framework/options-check/options.php:45
+msgid "Waffle"
+msgstr "Waffle"
+
+#: core/options.php:106
+msgid " ----- Select a page ----- "
+msgstr " ----- Select a page ----- "
+
+#: core/options.php:112
+msgid " ----- There is no page to select ----- "
+msgstr " ----- There is no page to select ----- "
+
+#: core/options.php:118
+msgid "General Settings"
+msgstr "General Settings"
+
+#: core/options.php:123
+msgid "Top Level Domain Extensions"
+msgstr "Top Level Domain Extensions"
+
+#: core/options.php:124
+msgid ""
+"List of supported TLD extensions, each extension is separated by a vertical "
+"stripe. Ex: com|org|net|us|jp. Empty list means all extensions are allowed."
+msgstr ""
+"List of supported TLD extensions, each extension is separated by a vertical "
+"stripe. Ex: com|org|net|us|jp. Empty list means all extensions are allowed."
+
+#: core/options.php:131
+msgid "Number Of Extensions To Check."
+msgstr "Number Of Extensions To Check."
+
+#: core/options.php:132
+msgid "Maximum number of TLD extensions to check at the same time. Ex: 5"
+msgstr "Maximum number of TLD extensions to check at the same time. Ex: 5"
+
+#: core/options.php:139 core/shortcodes/domainchecker.php:69
+msgid "Placeholder Text"
+msgstr "Placeholder Text"
+
+#: core/options.php:140
+msgid "Search input placeholder text."
+msgstr "Search input placeholder text."
+
+#: core/options.php:142 core/shortcodes/domainchecker.php:71
+#: core/shortcodes/domainchecker.php:383
+msgid "Search domain"
+msgstr "Search domain"
+
+#: core/options.php:147 core/shortcodes/domainchecker.php:76
+msgid "Show Search Button"
+msgstr "Show Search Button"
+
+#: core/options.php:153 core/options.php:286
+#: core/shortcodes/domainchecker.php:79
+msgid "Yes"
+msgstr "Yes"
+
+#: core/options.php:154 core/options.php:287
+#: core/shortcodes/domainchecker.php:80
+msgid "No"
+msgstr "No"
+
+#: core/options.php:159 core/shortcodes/domainchecker.php:88
+msgid "Search Button Text"
+msgstr "Search Button Text"
+
+#: core/options.php:161 core/shortcodes/domainchecker.php:90
+#: core/shortcodes/domainchecker.php:385
+msgid "Search"
+msgstr "Search"
+
+#: core/options.php:167
+msgid "Show Whois In"
+msgstr "Show Whois In"
+
+#: core/options.php:173 core/options.php:234
+msgid "Disable"
+msgstr "Disable"
+
+#: core/options.php:174
+msgid "Popup"
+msgstr "Popup"
+
+#: core/options.php:175
+msgid "Custom Page"
+msgstr "Custom Page"
+
+#: core/options.php:180
+msgid "Whois Page"
+msgstr "Whois Page"
+
+#: core/options.php:186
+msgid "Whois page should contain shortcode: [zwhois]"
+msgstr "Whois page should contain shortcode: [zwhois]"
+
+#: core/options.php:190
+msgid "Whois Title"
+msgstr "Whois Title"
+
+#: core/options.php:193
+msgid ""
+"Default: Whois record for {domain}. The {domain} will be replaced by domain "
+"name."
+msgstr ""
+"Default: Whois record for {domain}. The {domain} will be replaced by domain "
+"name."
+
+#: core/options.php:199
+msgid "Available Result Message"
+msgstr "Available Result Message"
+
+#: core/options.php:200
+msgid ""
+"Edit the available result message or leave it empty to use default message. "
+"The {domain} will be replaced by domain name."
+msgstr ""
+"Edit the available result message or leave it empty to use default message. "
+"The {domain} will be replaced by domain name."
+
+#: core/options.php:202
+msgid "The domain {domain} is not registered"
+msgstr "The domain {domain} is not registered"
+
+#: core/options.php:207
+msgid "Not Available Result Message"
+msgstr "Not Available Result Message"
+
+#: core/options.php:208
+msgid ""
+"Edit the message or leave it empty to use default message. The {domain} will "
+"be replaced by domain name."
+msgstr ""
+"Edit the message or leave it empty to use default message. The {domain} will "
+"be replaced by domain name."
+
+#: core/options.php:210
+msgid "The domain {domain} is registered"
+msgstr "The domain {domain} is registered"
+
+#: core/options.php:215
+msgid "Not Supported TLD Extensions Messages"
+msgstr "Not Supported TLD Extensions Messages"
+
+#: core/options.php:216
+msgid ""
+"Edit the message or leave it empty to use default message. The {ext} will be "
+"replaced by TLD extension."
+msgstr ""
+"Edit the message or leave it empty to use default message. The {ext} will be "
+"replaced by TLD extension."
+
+#: core/options.php:223
+msgid "Integration"
+msgstr "Integration"
+
+#: core/options.php:228
+msgid "Integrate With"
+msgstr "Integrate With"
+
+#: core/options.php:235
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: core/options.php:236
+msgid "WHMCS"
+msgstr "WHMCS"
+
+#: core/options.php:237
+msgid "Link"
+msgstr "Link"
+
+#: core/options.php:242
+msgid "Top Level Domain Extensions Integrated With Products"
+msgstr "Top Level Domain Extensions Integrated With Products"
+
+#: core/options.php:243
+msgid ""
+"List of TLD extensions integration with products, each extension and product "
+"id is separated by a vertical stripe. {ext1}-{product_id1}|{ext2}-"
+"{product_id2}|{ext3}-{product_id3}. Ex: com-23|org-18|net-65|us|jp-674."
+msgstr ""
+"List of TLD extensions integration with products, each extension and product "
+"id is separated by a vertical stripe. {ext1}-{product_id1}|{ext2}-"
+"{product_id2}|{ext3}-{product_id3}. Ex: com-23|org-18|net-65|us|jp-674."
+
+#: core/options.php:250
+msgid "WooCommerce Integration Button Text"
+msgstr "WooCommerce Integration Button Text"
+
+#: core/options.php:258
+msgid "Integration Link"
+msgstr "Integration Link"
+
+#: core/options.php:261
+msgid ""
+"Put the custom link you want integration. The {domain} will be replaced by "
+"domain name. Ex for WHMSC: http://biling.yourhosturl.com. Ex for custom "
+"link: http://zanthemes.net/?regdomain={domain}"
+msgstr ""
+"Put the custom link you want integration. The {domain} will be replaced by "
+"domain name. Ex for WHMSC: http://biling.yourhosturl.com. Ex for custom "
+"link: http://zanthemes.net/?regdomain={domain}"
+
+#: core/options.php:267
+msgid "Integration Link Text"
+msgstr "Integration Link Text"
+
+#: core/options.php:275
+msgid "Google reCAPTCHA"
+msgstr "Google reCAPTCHA"
+
+#: core/options.php:280
+msgid "Enable reCAPTCHA"
+msgstr "Enable reCAPTCHA"
+
+#: core/options.php:289
+msgid ""
+"reCAPTCHA is a free service from Google that helps protect websites from "
+"spam and abuse. A “CAPTCHA” is a test to tell human and bots apart. It is "
+"easy for humans to solve, but hard for “bots” and other malicious software "
+"to figure out."
+msgstr ""
+"reCAPTCHA is a free service from Google that helps protect websites from "
+"spam and abuse. A “CAPTCHA” is a test to tell human and bots apart. It is "
+"easy for humans to solve, but hard for “bots” and other malicious software "
+"to figure out."
+
+#: core/options.php:293
+msgid "reCaptcha Site Key"
+msgstr "reCaptcha Site Key"
+
+#: core/options.php:299
+msgid ""
+"<a href=\"https://www.google.com/recaptcha/admin\">Get reCaptcha Key</a>"
+msgstr ""
+"<a href=\"https://www.google.com/recaptcha/admin\">Get reCaptcha Key</a>"
+
+#: core/options.php:310
+msgid "reCaptcha Secret Key"
+msgstr "reCaptcha Secret Key"
+
+#: core/options.php:316
+msgid ""
+"<a href=\"https://www.google.com/recaptcha/admin\">Get reCaptcha Secret Key</"
+"a>"
+msgstr ""
+"<a href=\"https://www.google.com/recaptcha/admin\">Get reCaptcha Secret Key</"
+"a>"
+
+#: core/shortcodes/domainchecker.php:13
+msgid "--- No Animation ---"
+msgstr "--- No Animation ---"
+
+#: core/shortcodes/domainchecker.php:14
+msgid "bounce"
+msgstr "bounce"
+
+#: core/shortcodes/domainchecker.php:15
+msgid "flash"
+msgstr "flash"
+
+#: core/shortcodes/domainchecker.php:16
+msgid "pulse"
+msgstr "pulse"
+
+#: core/shortcodes/domainchecker.php:17
+msgid "rubberBand"
+msgstr "rubberBand"
+
+#: core/shortcodes/domainchecker.php:18
+msgid "shake"
+msgstr "shake"
+
+#: core/shortcodes/domainchecker.php:19
+msgid "swing"
+msgstr "swing"
+
+#: core/shortcodes/domainchecker.php:20
+msgid "tada"
+msgstr "tada"
+
+#: core/shortcodes/domainchecker.php:21
+msgid "wobble"
+msgstr "wobble"
+
+#: core/shortcodes/domainchecker.php:22
+msgid "jello"
+msgstr "jello"
+
+#: core/shortcodes/domainchecker.php:23
+msgid "bounceIn"
+msgstr "bounceIn"
+
+#: core/shortcodes/domainchecker.php:24
+msgid "bounceInDown"
+msgstr "bounceInDown"
+
+#: core/shortcodes/domainchecker.php:25
+msgid "bounceInLeft"
+msgstr "bounceInLeft"
+
+#: core/shortcodes/domainchecker.php:26
+msgid "bounceInRight"
+msgstr "bounceInRight"
+
+#: core/shortcodes/domainchecker.php:27
+msgid "bounceInUp"
+msgstr "bounceInUp"
+
+#: core/shortcodes/domainchecker.php:28
+msgid "fadeIn"
+msgstr "fadeIn"
+
+#: core/shortcodes/domainchecker.php:29
+msgid "fadeInDown"
+msgstr "fadeInDown"
+
+#: core/shortcodes/domainchecker.php:30
+msgid "fadeInDownBig"
+msgstr "fadeInDownBig"
+
+#: core/shortcodes/domainchecker.php:31
+msgid "fadeInLeft"
+msgstr "fadeInLeft"
+
+#: core/shortcodes/domainchecker.php:32
+msgid "fadeInLeftBig"
+msgstr "fadeInLeftBig"
+
+#: core/shortcodes/domainchecker.php:33
+msgid "fadeInRight"
+msgstr "fadeInRight"
+
+#: core/shortcodes/domainchecker.php:34
+msgid "fadeInRightBig"
+msgstr "fadeInRightBig"
+
+#: core/shortcodes/domainchecker.php:35
+msgid "fadeInUp"
+msgstr "fadeInUp"
+
+#: core/shortcodes/domainchecker.php:36
+msgid "fadeInUpBig"
+msgstr "fadeInUpBig"
+
+#: core/shortcodes/domainchecker.php:37
+msgid "flip"
+msgstr "flip"
+
+#: core/shortcodes/domainchecker.php:38
+msgid "flipInX"
+msgstr "flipInX"
+
+#: core/shortcodes/domainchecker.php:39
+msgid "flipInY"
+msgstr "flipInY"
+
+#: core/shortcodes/domainchecker.php:40
+msgid "lightSpeedIn"
+msgstr "lightSpeedIn"
+
+#: core/shortcodes/domainchecker.php:41
+msgid "rotateIn"
+msgstr "rotateIn"
+
+#: core/shortcodes/domainchecker.php:42
+msgid "rotateInDownLeft"
+msgstr "rotateInDownLeft"
+
+#: core/shortcodes/domainchecker.php:43
+msgid "rotateInDownRight"
+msgstr "rotateInDownRight"
+
+#: core/shortcodes/domainchecker.php:44
+msgid "rotateInUpLeft"
+msgstr "rotateInUpLeft"
+
+#: core/shortcodes/domainchecker.php:45
+msgid "rotateInUpRight"
+msgstr "rotateInUpRight"
+
+#: core/shortcodes/domainchecker.php:46
+msgid "slideInUp"
+msgstr "slideInUp"
+
+#: core/shortcodes/domainchecker.php:47
+msgid "slideInDown"
+msgstr "slideInDown"
+
+#: core/shortcodes/domainchecker.php:48
+msgid "slideInLeft"
+msgstr "slideInLeft"
+
+#: core/shortcodes/domainchecker.php:49
+msgid "slideInRight"
+msgstr "slideInRight"
+
+#: core/shortcodes/domainchecker.php:50
+msgid "zoomIn"
+msgstr "zoomIn"
+
+#: core/shortcodes/domainchecker.php:51
+msgid "zoomInDown"
+msgstr "zoomInDown"
+
+#: core/shortcodes/domainchecker.php:52
+msgid "zoomInLeft"
+msgstr "zoomInLeft"
+
+#: core/shortcodes/domainchecker.php:53
+msgid "zoomInRight"
+msgstr "zoomInRight"
+
+#: core/shortcodes/domainchecker.php:54
+msgid "zoomInUp"
+msgstr "zoomInUp"
+
+#: core/shortcodes/domainchecker.php:55
+msgid "rollIn"
+msgstr "rollIn"
+
+#: core/shortcodes/domainchecker.php:111
+msgid "CSS Animation"
+msgstr "CSS Animation"
+
+#: core/shortcodes/domainchecker.php:120
+msgid "Animation Delay"
+msgstr "Animation Delay"
+
+#: core/shortcodes/domainchecker.php:123
+msgid "Delay unit is second."
+msgstr "Delay unit is second."
+
+#: core/shortcodes/domainchecker.php:132
+msgid "Style"
+msgstr "Style"
+
+#: core/shortcodes/domainchecker.php:135
+msgid "Style 1"
+msgstr "Style 1"
+
+#: core/shortcodes/domainchecker.php:136
+msgid "Style 2"
+msgstr "Style 2"
+
+#: core/shortcodes/domainchecker.php:137
+msgid "Style 3"
+msgstr "Style 3"
+
+#: core/shortcodes/domainchecker.php:138
+msgid "Style 4"
+msgstr "Style 4"
+
+#: core/shortcodes/domainchecker.php:141 core/shortcodes/domainchecker.php:150
+#: core/shortcodes/domainchecker.php:159 core/shortcodes/domainchecker.php:168
+#: core/shortcodes/domainchecker.php:177
+msgid "Style And Color"
+msgstr "Style And Color"
+
+#: core/shortcodes/domainchecker.php:147
+msgid "Input Color"
+msgstr "Input Color"
+
+#: core/shortcodes/domainchecker.php:156
+msgid "Input Background Color"
+msgstr "Input Background Color"
+
+#: core/shortcodes/domainchecker.php:165
+msgid "Button Text Color"
+msgstr "Button Text Color"
+
+#: core/shortcodes/domainchecker.php:174
+msgid "Button Background Color"
+msgstr "Button Background Color"
+
+#: core/shortcodes/domainchecker.php:181
+msgid "Css"
+msgstr "Css"
+
+#: core/shortcodes/domainchecker.php:183
+msgid "Design Options"
+msgstr "Design Options"
+
+#: options-framework/includes/class-options-framework-admin.php:65
+#, php-format
+msgid ""
+"Your current theme does not have support for the Options Framework plugin.  "
+"<a href=\"%1$s\" target=\"_blank\">Learn More</a> | <a href=\"%2$s\">Hide "
+"Notice</a>"
+msgstr ""
+"Your current theme does not have support for the Options Framework plugin.  "
+"<a href=\"%1$s\" target=\"_blank\">Learn More</a> | <a href=\"%2$s\">Hide "
+"Notice</a>"
+
+#: options-framework/includes/class-options-framework-admin.php:122
+#: options-framework/includes/class-options-framework-admin.php:123
+msgid "Theme Options"
+msgstr "Theme Options"
+
+#: options-framework/includes/class-options-framework-admin.php:243
+msgid "Save Options"
+msgstr "Save Options"
+
+#: options-framework/includes/class-options-framework-admin.php:244
+msgid "Restore Defaults"
+msgstr "Restore Defaults"
+
+#: options-framework/includes/class-options-framework-admin.php:244
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr "Click OK to reset. Any theme settings will be lost!"
+
+#: options-framework/includes/class-options-framework-admin.php:275
+msgid "Default options restored."
+msgstr "Default options restored."
+
+#: options-framework/includes/class-options-framework-admin.php:329
+msgid "Options saved."
+msgstr "Options saved."
+
+#: options-framework/includes/class-options-media-uploader.php:63
+msgid "No file chosen"
+msgstr "No file chosen"
+
+#: options-framework/includes/class-options-media-uploader.php:66
+#: options-framework/includes/class-options-media-uploader.php:119
+msgid "Upload"
+msgstr "Upload"
+
+#: options-framework/includes/class-options-media-uploader.php:68
+#: options-framework/includes/class-options-media-uploader.php:120
+msgid "Remove"
+msgstr "Remove"
+
+#: options-framework/includes/class-options-media-uploader.php:71
+msgid "Upgrade your version of WordPress for full media support."
+msgstr "Upgrade your version of WordPress for full media support."
+
+#: options-framework/includes/class-options-media-uploader.php:95
+msgid "View File"
+msgstr "View File"
+
+#: options-framework/includes/class-options-sanitization.php:316
+msgid "No Repeat"
+msgstr "No Repeat"
+
+#: options-framework/includes/class-options-sanitization.php:317
+msgid "Repeat Horizontally"
+msgstr "Repeat Horizontally"
+
+#: options-framework/includes/class-options-sanitization.php:318
+msgid "Repeat Vertically"
+msgstr "Repeat Vertically"
+
+#: options-framework/includes/class-options-sanitization.php:319
+msgid "Repeat All"
+msgstr "Repeat All"
+
+#: options-framework/includes/class-options-sanitization.php:331
+msgid "Top Left"
+msgstr "Top Left"
+
+#: options-framework/includes/class-options-sanitization.php:332
+msgid "Top Center"
+msgstr "Top Center"
+
+#: options-framework/includes/class-options-sanitization.php:333
+msgid "Top Right"
+msgstr "Top Right"
+
+#: options-framework/includes/class-options-sanitization.php:334
+msgid "Middle Left"
+msgstr "Middle Left"
+
+#: options-framework/includes/class-options-sanitization.php:335
+msgid "Middle Center"
+msgstr "Middle Center"
+
+#: options-framework/includes/class-options-sanitization.php:336
+msgid "Middle Right"
+msgstr "Middle Right"
+
+#: options-framework/includes/class-options-sanitization.php:337
+msgid "Bottom Left"
+msgstr "Bottom Left"
+
+#: options-framework/includes/class-options-sanitization.php:338
+msgid "Bottom Center"
+msgstr "Bottom Center"
+
+#: options-framework/includes/class-options-sanitization.php:339
+msgid "Bottom Right"
+msgstr "Bottom Right"
+
+#: options-framework/includes/class-options-sanitization.php:351
+msgid "Scroll Normally"
+msgstr "Scroll Normally"
+
+#: options-framework/includes/class-options-sanitization.php:352
+msgid "Fixed in Place"
+msgstr "Fixed in Place"
+
+#: options-framework/includes/class-options-sanitization.php:424
+msgid "Normal"
+msgstr "Normal"
+
+#: options-framework/includes/class-options-sanitization.php:425
+msgid "Italic"
+msgstr "Italic"
+
+#: options-framework/includes/class-options-sanitization.php:426
+msgid "Bold"
+msgstr "Bold"
+
+#: options-framework/includes/class-options-sanitization.php:427
+msgid "Bold Italic"
+msgstr "Bold Italic"
+
+#: options-framework/options-check/options.php:105
+msgid "Basic Settings"
+msgstr "Basic Settings"
+
+#: options-framework/options-check/options.php:109
+msgid "Input Text Mini"
+msgstr "Input Text Mini"
+
+#: options-framework/options-check/options.php:110
+msgid "A mini text input field."
+msgstr "A mini text input field."
+
+#: options-framework/options-check/options.php:117
+msgid "Input Text"
+msgstr "Input Text"
+
+#: options-framework/options-check/options.php:118
+msgid "A text input field."
+msgstr "A text input field."
+
+#: options-framework/options-check/options.php:124
+msgid "Textarea"
+msgstr "Textarea"
+
+#: options-framework/options-check/options.php:125
+msgid "Textarea description."
+msgstr "Textarea description."
+
+#: options-framework/options-check/options.php:131
+msgid "Input Select Small"
+msgstr "Input Select Small"
+
+#: options-framework/options-check/options.php:132
+msgid "Small Select Box."
+msgstr "Small Select Box."
+
+#: options-framework/options-check/options.php:140
+msgid "Input Select Wide"
+msgstr "Input Select Wide"
+
+#: options-framework/options-check/options.php:141
+msgid "A wider select box."
+msgstr "A wider select box."
+
+#: options-framework/options-check/options.php:148
+msgid "Select a Category"
+msgstr "Select a Category"
+
+#: options-framework/options-check/options.php:149
+msgid "Passed an array of categories with cat_ID and cat_name"
+msgstr "Passed an array of categories with cat_ID and cat_name"
+
+#: options-framework/options-check/options.php:156
+msgid "Select a Tag"
+msgstr "Select a Tag"
+
+#: options-framework/options-check/options.php:157
+msgid "Passed an array of tags with term_id and term_name"
+msgstr "Passed an array of tags with term_id and term_name"
+
+#: options-framework/options-check/options.php:164
+msgid "Select a Page"
+msgstr "Select a Page"
+
+#: options-framework/options-check/options.php:165
+msgid "Passed an array of pages with ID and post_title"
+msgstr "Passed an array of pages with ID and post_title"
+
+#: options-framework/options-check/options.php:171
+msgid "Input Radio (one)"
+msgstr "Input Radio (one)"
+
+#: options-framework/options-check/options.php:172
+msgid "Radio select with default options \"one\"."
+msgstr "Radio select with default options \"one\"."
+
+#: options-framework/options-check/options.php:179
+msgid "Example Info"
+msgstr "Example Info"
+
+#: options-framework/options-check/options.php:180
+msgid "This is just some example information you can put in the panel."
+msgstr "This is just some example information you can put in the panel."
+
+#: options-framework/options-check/options.php:184
+msgid "Input Checkbox"
+msgstr "Input Checkbox"
+
+#: options-framework/options-check/options.php:185
+msgid "Example checkbox, defaults to true."
+msgstr "Example checkbox, defaults to true."
+
+#: options-framework/options-check/options.php:191
+msgid "Advanced Settings"
+msgstr "Advanced Settings"
+
+#: options-framework/options-check/options.php:195
+msgid "Check to Show a Hidden Text Input"
+msgstr "Check to Show a Hidden Text Input"
+
+#: options-framework/options-check/options.php:196
+msgid "Click here and see what happens."
+msgstr "Click here and see what happens."
+
+#: options-framework/options-check/options.php:201
+msgid "Hidden Text Input"
+msgstr "Hidden Text Input"
+
+#: options-framework/options-check/options.php:202
+msgid "This option is hidden unless activated by a checkbox click."
+msgstr "This option is hidden unless activated by a checkbox click."
+
+#: options-framework/options-check/options.php:209
+msgid "Uploader Test"
+msgstr "Uploader Test"
+
+#: options-framework/options-check/options.php:210
+msgid "This creates a full size uploader that previews the image."
+msgstr "This creates a full size uploader that previews the image."
+
+#: options-framework/options-check/options.php:227
+msgid "Example Background"
+msgstr "Example Background"
+
+#: options-framework/options-check/options.php:228
+msgid "Change the background CSS."
+msgstr "Change the background CSS."
+
+#: options-framework/options-check/options.php:234
+msgid "Multicheck"
+msgstr "Multicheck"
+
+#: options-framework/options-check/options.php:235
+msgid "Multicheck description."
+msgstr "Multicheck description."
+
+#: options-framework/options-check/options.php:242
+msgid "Colorpicker"
+msgstr "Colorpicker"
+
+#: options-framework/options-check/options.php:243
+msgid "No color selected by default."
+msgstr "No color selected by default."
+
+#: options-framework/options-check/options.php:248
+msgid "Typography"
+msgstr "Typography"
+
+#: options-framework/options-check/options.php:249
+msgid "Example typography."
+msgstr "Example typography."
+
+#: options-framework/options-check/options.php:255
+msgid "Custom Typography"
+msgstr "Custom Typography"
+
+#: options-framework/options-check/options.php:256
+msgid "Custom typography options."
+msgstr "Custom typography options."
+
+#: options-framework/options-check/options.php:263
+msgid "Text Editor"
+msgstr "Text Editor"
+
+#: options-framework/options-check/options.php:281
+msgid "Default Text Editor"
+msgstr "Default Text Editor"
+
+#: options-framework/options-check/options.php:282
+#, php-format
+msgid ""
+"You can also pass settings to the editor.  Read more about wp_editor in <a "
+"href=\"%1$s\" target=\"_blank\">the WordPress codex</a>"
+msgstr ""
+"You can also pass settings to the editor.  Read more about wp_editor in <a "
+"href=\"%1$s\" target=\"_blank\">the WordPress codex</a>"
+
+#: options-framework/options-check/options.php:294
+msgid "Additional Text Editor"
+msgstr "Additional Text Editor"
+
+#: options-framework/options-check/options.php:295
+msgid "This editor includes media button."
+msgstr "This editor includes media button."
+
+#: options-framework/options-theme-customizer/options.php:101
+msgid "Basic"
+msgstr "Basic"
+
+#: options-framework/options-theme-customizer/options.php:158
+msgid "Extended"
+msgstr "Extended"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://zanthemes.net/wordpress/plugins/zan-domain-checker/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Check domain availability."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Le Manh Linh"
+msgstr ""
